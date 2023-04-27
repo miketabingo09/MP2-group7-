@@ -36,7 +36,7 @@ input, select, textarea {
     display: contents;
 }
 .background {
-    background-image: url(../images/wedding4.jpg);
+    background-color: rgb(226,220,193);
 }
 .container-fluid {
     background-color: rgba(223, 223, 223, 0.558);

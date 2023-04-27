@@ -9,11 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    background: url("/assets/images/coffeeeeee.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   background-color: rgb(226,220,193);
 }
 .container {
     display: flex;
