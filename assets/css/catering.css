@@ -16,9 +16,7 @@ section {
     overflow: hidden;
 
 }
-.container .a-img{
-    background-image: url(/assets/images/catering1.jpg);
-}
+
 .a-img {
     width: 80%;
     height: 400px;
@@ -28,9 +26,7 @@ section {
 .a-img:hover{
     transform: scale(1.1);
 }
-.container .b-img{
-    background-image: url(/assets/images/catering2.jpg);
-}
+
 .b-img {
     width: 80%;
     height: 400px;
