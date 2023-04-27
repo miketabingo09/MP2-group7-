@@ -4,3 +4,20 @@
 .checkbox1 {
   font-size: 500px;
 }
+@media (max-width: 580px) {
+  .row {
+    padding: 0;
+  }
+  .row img {
+    padding: 0;
+    width: 100%;
+  }
+  .sidebar a {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar a {
+    justify-content: space-evenly;
+  }
+}

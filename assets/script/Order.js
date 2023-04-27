@@ -79,6 +79,7 @@ paymentContainer.addEventListener("click", (e) => {
 })
 
 let addBtn1 = () => {
+  let quantity = 1;
   //create div elements
   let itemContainer = document.createElement("div");
   let checkImagesContainer = document.createElement("div");
@@ -222,7 +223,7 @@ let addBtn1 = () => {
 } 
 
 let addBtn2 = () => {
-  
+  let quantity = 1;
 
   //create div elements
   let itemContainer = document.createElement("div");
@@ -366,7 +367,7 @@ let addBtn2 = () => {
 }
 
 let addBtn3 = () => {
- 
+  let quantity = 1;
   //create div elements
   let itemContainer = document.createElement("div");
   let checkImagesContainer = document.createElement("div");
@@ -509,6 +510,7 @@ let addBtn3 = () => {
 }
 
 let addBtn4 = () => {
+  let quantity = 1;
 //create div elements
 let itemContainer = document.createElement("div");
 let checkImagesContainer = document.createElement("div");
@@ -654,6 +656,7 @@ remBtn.addEventListener("click", remove);
 // hot brewed coffee menu list
 
 let addBtn7 = () => {
+  let quantity = 1;
  //create div elements
 let itemContainer = document.createElement("div");
 let checkImagesContainer = document.createElement("div");
@@ -796,6 +799,7 @@ remBtn.addEventListener("click", remove);
 }
 
 let addBtn8 = () => {
+  let quantity = 1;
  //create div elements
 let itemContainer = document.createElement("div");
 let checkImagesContainer = document.createElement("div");
@@ -938,6 +942,7 @@ remBtn.addEventListener("click", remove);
 }
 
 let addBtn9 = () => {
+  let quantity = 1;
 //create div elements
 let itemContainer = document.createElement("div");
 let checkImagesContainer = document.createElement("div");
@@ -1080,6 +1085,7 @@ remBtn.addEventListener("click", remove);
 }
 
 let addBtn10 = () => {
+  let quantity = 1;
  //create div elements
 let itemContainer = document.createElement("div");
 let checkImagesContainer = document.createElement("div");
@@ -1226,6 +1232,7 @@ remBtn.addEventListener("click", remove);
 //espresso drinks
 
 let addBtn13 = () => {
+  let quantity = 1;
   //create div elements
 let itemContainer = document.createElement("div");
 let checkImagesContainer = document.createElement("div");
@@ -1368,6 +1375,7 @@ remBtn.addEventListener("click", remove);
 }
 
 let addBtn14 = () => {
+  let quantity = 1;
  //create div elements
  let itemContainer = document.createElement("div");
  let checkImagesContainer = document.createElement("div");
@@ -1510,6 +1518,7 @@ let addBtn14 = () => {
 }
 
 let addBtn15 = () => {
+  let quantity = 1;
  //create div elements
  let itemContainer = document.createElement("div");
  let checkImagesContainer = document.createElement("div");
@@ -1652,6 +1661,7 @@ let addBtn15 = () => {
 }
 
 let addBtn16 = () => {
+  let quantity = 1;
  //create div elements
  let itemContainer = document.createElement("div");
  let checkImagesContainer = document.createElement("div");
@@ -1794,6 +1804,7 @@ let addBtn16 = () => {
 }
 
 let addBtn17 = () => {
+  let quantity = 1;
  //create div elements
  let itemContainer = document.createElement("div");
  let checkImagesContainer = document.createElement("div");
