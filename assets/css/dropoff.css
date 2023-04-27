@@ -1,0 +1,23 @@
+.div1 {
+    max-width: 800px;
+
+}
+.c-item {
+    height: 650px;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+.c-cap h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.carousel {
+    width: 80%;
+}
+.carousel-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja Brew Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/919d4b6d44.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/styles/imagess/favicon.ico">
+</head>
+<body>
+ <!-- Navbar -->
+ <nav class="d-flex align-items-center">
+    <div class="container-fluid">
+        <div class="nav-address py-3">
+            <h6>95 National Road Cut-Cot, Pulilan, Bulacan (Landmark: across of Academia de Pulilan) &nbsp; 0915 500 2844</h6>
+        </div>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="assets/imagess/Deja Brew Logo.png" alt="">
+            </a>
+        </div>
+        <div class="nav-items d-none d-sm-flex d-sm-none d-md-flex">
+            <ul class="navbar nav">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Order.html" class="nav-link">Order Online</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catering.html" class="nav-link">Catering & Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="merchandise.html" class="nav-link">Merchandise</a>
+                </li>
+                <li class="nav-item">
+                    <a href="community.html" class="nav-link">Community</a>
+                </li>
+                <li class="nav-item nav-button">
+                    <a href="login.html" class="nav-link" type="button">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Admin</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Button trigger modal -->
+        <div class="mobile-toggler d-md-none">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#navModal">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </a>
+        </div>
+            
+        <!-- Modal -->
+        <div class="modal fade" id="navModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="assets/imagess/Deja Brew Logo.png" alt="">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-line">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <a href="about.html">About</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <a href="Order.html">Order&nbsp;Online</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fa-solid fa-bell-concierge"></i>
+                            <a href="catering.html">Catering&nbsp;&&nbsp;Events</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <a href="merchandise.html">Merchandise</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fa-solid fa-person"></i>
+                            <a href="community.html">Community</a>
+                        </div>
+                        
+                        <a href="login.html" class="modal-line-button" type="button">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>Admin</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!-- Carousel Header -->
+    <header>
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="assets/imagess/Carousel Shop.jpg" class="w-100 c-img" alt="g1">
+                    <div class="carousel-caption d-flex flex-column justify-content-center top-0 mt-5">
+                        <div class="c-cap">
+                            <h1 class="text-center">"Indulge yourself with flavors"</h1>
+                            <h2 class="fs-8">"Shop now to indulge yourself with the flavors of Deja Brew"</h2>
+                        </div>
+                        <div>
+                            <a href="#shop" class="btn btn-danger mt-2">
+                                Shop Online
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="assets/imagess/Carousel Service.jpg" class="w-100 c-img" alt="g2">
+                    <div class="carousel-caption d-flex flex-column justify-content-center top-0 mt-5">
+                        <div class="c-cap">
+                            <h1>"Ready to serve you anytime, anywhere"</h1>
+                            <h2 class="fs-8">"No need to go to our physical stores since we can go to your place instead."</h2>
+                        </div>
+                        <div>
+                            <a href="#caterings" class="btn btn-danger mt-2">
+                                Check Our Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="assets/imagess/Carousel Experience.jpg" class="w-100 c-img" alt="g2">
+                    <div class="carousel-caption d-flex flex-column justify-content-center top-0 mt-5">
+                        <div class="c-cap">
+                            <h1>"Not your typical Deja Vu</h1>
+                            <h2 class="fs-8">"Enjoy the Deja Brew Experience that you've never had before"</h2>
+                        </div>
+                        <div>
+                            <a href="learn.html" class="btn btn-danger mt-2">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Major Buttons Section -->
+    <section class="maj-btn-sec">
+        <div class="container ms-auto d-flex align-items-center justify-content-center flex-wrap">
+            <button class="m-3 maj-btn">
+                <div class="card button-card text-bg-dark">
+                    <img src="assets/imagess/Deja Brew 1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay text-center d-flex flex-column align-content center justify-content-center">
+                        <h1 class="card-title">Shop Online</h1>
+                        <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+                    </div>
+                </div>
+            </button>
+            
+            <button class="m-3 maj-btn">
+                <div class="card button-card text-bg-dark text-center">
+                    <img src="assets/imagess/Deja Brew 2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay text-center d-flex flex-column align-content center justify-content-center">
+                        <h1 class="card-title"> Caterings / Private Events /Reservations </h1>
+                        <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+                    </div>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <!-- Review Section -->
+    <section>
+        <div class="review-container">
+            <div class="testimonial">
+                <h1 class="rev-header">Client Reviews</h1>
+                <div class="card testimonial-text">
+                    <div class="user-text active-text">
+                    <i class="fas fa-quote-left"></i>
+                    <p>
+                        Check my Review <a href="https://jennysonline.blogspot.com/2022/04/deja-brew-cafe-serves-premium-blend.html?fbclid=IwAR09ued5WnBHn6SKBpXbf3TdaaM9VYZUV6aLruDtj_1nd9V3NLbP9d2cZPA" target="blank" class="rev-link">here.</a> ...
+                        The price was reasonable because came from fine coffee granules, freshly grind and and served every day, compare to others who claims a coffee brew but just uses instant coffee powder instead.
+                    </p>
+                    <span>Jericho Morales, April 17, 2022</span>
+                    </div>
+                    <div class="user-text">
+                    <i class="fas fa-quote-left"></i>
+                    <p>
+                        ⭐⭐⭐⭐⭐ Recommended.
+                        Ang sarap po ng food, lalo nung pasta😋😋😋 pati frappe.. sure na bbAlik po kami.
+                    <span>Gladys Claudio Candelaria, November 19, 2021</span>
+                    </div>
+                    <div class="user-text">
+                    <i class="fas fa-quote-left"></i>
+                    <p>
+                        Masarap yung food & drinks nila dito 🥰
+                        Siguradong babalik kaaaaami 😍😍😍
+                    </p>
+                    <span>Ana Verdijo Claudio, November 19, 2021</span>
+                    </div>
+                    <div class="user-text">
+                    <i class="fas fa-quote-left"></i>
+                    <p>
+                        A must try coffee!🤎😋 Masarap at sulit sa price.😊 Affordable SB version.👍🏻 Very friendly and mabaet pa si Sis Rosel and Kuya Charles.😊
+                    </p>
+                    <span>Mayan Guese-Nombrepia, April 19, 2021</span>
+                    </div>
+                    <div class="user-text">
+                    <i class="fas fa-quote-left"></i>
+                    <p>
+                        Sa mga coffee lover dyan this coffee must try!! Daming ding choices ng coffee 😍And also their Eggtart 😳 grbe apakasarap tlga! ❤️
+                    </p>
+                    <span>Jha Labs, September 24, 2021
+                    </span>
+                    </div>
+                </div>
+                <div class="testimonial-pic">
+                    <img src="assets/imagess/Client-1.jpg" class="user-pic active-pic" onclick="showReview()">
+                    <img src="assets/imagess/Client-2.jpg" class="user-pic" onclick="showReview()">
+                    <img src="assets/imagess/Client-3.jpg" class="user-pic" onclick="showReview()">
+                    <img src="assets/imagess/Client-4.jpg" class="user-pic" onclick="showReview()">
+                    <img src="assets/imagess/Client-5.jpg" class="user-pic" onclick="showReview()">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-6">
+                    <div class="single-box" id="footer-main-box">
+                        <img src="assets/imagess/Deja Brew Logo.png" alt="" class="footer-img">
+                        <p> A Deja Vu in a cup. It's always a new experience with Deja Brew. Reminisce the good times with us.</p>
+                        <h2>Follow us on</h2>
+                        <p class="socials">
+                            <a href="https://www.facebook.com/profile.php?id=100066843000615" target="blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#twitter"><i class="fa fa-twitter"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6"></div>
+                <div class="col-lg-2 col-md-12  col-sm-6">
+                    <div class="single-box">
+                        <h2>About</h2>
+                    <ul>
+                        <li><a href="about.html#inACup">It's all in a cup</a></li>
+                        <li><a href="about.html#contact">Contact</a></li>
+                        <li><a href="about.html#location">Location</a></li>
+                        <li><a href="about.html#busHours">Business Hours</a></li>
+                    </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-2 col-md-12  col-sm-6">
+                    <div class="single-box">
+                        <h2>Community</h2>
+                    <ul>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Invite a Friend</a></li>
+                    </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-2 col-md-12  col-sm-6">
+                    <div class="single-box">
+                        <h2>Socials</h2>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100066843000615" target="blank">Facebook</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

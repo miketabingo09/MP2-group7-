@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+section {
+    margin: 0;
+}
+.div1 {
+    max-width: 800px;
+
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    overflow: hidden;
+
+}
+.container .a-img{
+    background-image: url(/assets/images/catering1.jpg);
+}
+.a-img {
+    width: 80%;
+    height: 400px;
+    transition: .20s;
+}
+
+.a-img:hover{
+    transform: scale(1.1);
+}
+.container .b-img{
+    background-image: url(/assets/images/catering2.jpg);
+}
+.b-img {
+    width: 80%;
+    height: 400px;
+    transition: .20s;
+}
+
+.b-img:hover{
+    transform: scale(1.1);
+}
+
+
+.form {
+    width: 60%;
+}
+
+label {
+    font-size: 20px;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+}
+.validation i {
+    display: none;
+}
+.validation span {
+    display: none;
+}
+.success i.fa-circle-check{
+    display: contents;
+}
+.success .text-success{
+    display: contents;
+}
+.error i.fa-circle-exclamation{
+    display: contents;
+}
+.error .text-danger{
+    display: contents;
+}
+.form {
+    background-color: rgba(216, 196, 167, 0.404);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 576px) {
+    input, select {
+        margin: 0 0;
+    }
+}

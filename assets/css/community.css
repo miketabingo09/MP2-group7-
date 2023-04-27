@@ -1,0 +1,16 @@
+.div1 {
+    max-width: 800px;
+
+}
+.l-img, .r-img {
+    height: auto;
+
+}
+.l-img img {
+    width: 300px;
+    height: auto;
+}
+.r-img {
+    width: 100%;
+}
+

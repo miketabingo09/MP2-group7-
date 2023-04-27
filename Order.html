@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/Order.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/74791e02ad.js" crossorigin="anonymous"></script>
+    <title>Menu List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/imagess/favicon.ico">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="d-flex align-items-center">
+      <div class="container-fluid">
+          <div class="nav-address py-3">
+              <h6>95 National Road Cut-Cot, Pulilan, Bulacan (Landmark: across of Academia de Pulilan) &nbsp; 0915 500 2844</h6>
+          </div>
+          <div class="nav-logo">
+              <a href="index.html">
+                  <img src="assets/imagess/Deja Brew Logo.png" alt="">
+              </a>
+          </div>
+          <div class="nav-items d-none d-sm-flex d-sm-none d-md-flex">
+              <ul class="navbar nav">
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="Order.html" class="nav-link">Order Online</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="catering.html" class="nav-link">Catering & Events</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="merchandise.html" class="nav-link">Merchandise</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="community.html" class="nav-link">Community</a>
+                  </li>
+                  <li class="nav-item nav-button">
+                      <a href="login.html" class="nav-link" type="button">
+                          <i class="fa-solid fa-gear"></i>
+                          <span>Admin</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+
+          <!-- Button trigger modal -->
+          <div class="mobile-toggler d-md-none">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#navModal">
+                  <i class="fa-sharp fa-solid fa-bars"></i>
+              </a>
+          </div>
+              
+          <!-- Modal -->
+          <div class="modal fade" id="navModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <img src="assets/imagess/Deja Brew Logo.png" alt="">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                              <i class="fa-solid fa-xmark"></i>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="modal-line">
+                              <i class="fa-solid fa-circle-info"></i>
+                              <a href="about.html">About</a>
+                          </div>
+                          <div class="modal-line">
+                              <i class="fa-solid fa-mug-saucer"></i>
+                              <a href="Order.html">Order&nbsp;Online</a>
+                          </div>
+                          <div class="modal-line">
+                              <i class="fa-solid fa-bell-concierge"></i>
+                              <a href="catering.html">Catering&nbsp;&&nbsp;Events</a>
+                          </div>
+                          <div class="modal-line">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                              <a href="merchandise.html">Merchandise</a>
+                          </div>
+                          <div class="modal-line">
+                              <i class="fa-solid fa-person"></i>
+                              <a href="community.html">Community</a>
+                          </div>
+                          
+                          <a href="login.html" class="modal-line-button" type="button">
+                              <i class="fa-solid fa-gear"></i>
+                              <span>Admin</span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+   
+
+    <div class="container-fluid">
+      <div class="content1 mt-lg-5 mt-md-5 mt-sm-5">
+        <div class="column1 text-center">
+          <div>
+            <h1 class="fs-1 fw-bold">Deja Brew Coffee</h1>
+          </div>
+          <div class="mt-lg-5 mt-md-5 mt-sm-5">
+            <p class="fs-3">100% Single Origin Coffee Beans harvested in the Philippines.</p>
+          </div>
+          <div class="container-md mt-lg-5 mt-md-5 mt-sm-5">
+            <p class="fs-4">Experience fresh, high-quality, and locally sourced cold brew coffee that is smooth, delicious, and low in acidity. The best you'll ever have!</p>
+          </div>
+          <div class="row mt-lg-5 mt-md-5 mt-sm-5">
+            <img src="assets/image/banner.png" class="col-lg-12 col-md-12 col-sm-12">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md">
+      <div class="content2 mt-lg-5 mt-md-5 mt-sm-5">
+        <p class="fs-2 fw-bold text-dark col-lg-12 col-md-12 col-sm-12">Deja Brew Drinks</p>
+        <div class="side-bar d-flex flex-row col-lg-12 text-center mt-5">
+          <a class="fs-5 fw-semibold text-dark col-lg-2 col-md-4 col-sm-4"style="text-decoration: none; " id="feauturedBtn" href="#menu1">Featured Drinks</a>
+          <a class="fs-5 fw-semibold text-dark col-lg-2 col-md-3 col-sm-3"style="text-decoration: none;" id="brewedBtn" href="#menu2">Brewed Coffee</a>
+          <a class="fs-5 fw-semibold text-dark col-lg-2 col-md-3 col-sm-3"style="text-decoration: none;" id="espressoBtn" href="#menu3">Espresso</a>
+        </div>
+      </div> 
+    </div>
+
+    
+    <!-- featured drinks -->
+    <div class="container-fluid mt-lg-5 mt-md-5 mt-sm-5 " id="menu1">
+      <div class="items-content"> 
+        <div class="items-list row d-flex text-lg-center text-md-center text-sm-center justify-content-center">
+          <div class="col-lg-2 col-md-6 col-sm-6 pb-4 border m-1" style="color:  rgb(97,59,41);">
+            <img src="assets/image/featured-drink-1-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8  pb-5">
+            <p class="fs-5 fw-semibold">Okayama Peach Apple Cold Brew</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart1" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41)">
+              Add to Cart
+            </button>
+          </div>
+          
+          <div class="col-lg-2 col-md-6 col-sm-6 pb-4 border m-1" style="color:  rgb(97,59,41);">
+            <img src="assets/image/featured-drink-2-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8 pb-lg-5 pb-5">
+            <p class="fs-5 fw-semibold">Belgium Chocolate Frappuccino</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart2" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6  pb-4 border m-1 " style="color:  rgb(97,59,41);">
+            <img src="assets/image/featured-drink-3-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Belgium Chocolate Nitro Cold</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart3" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 pb-4 border m-1" style="color:  rgb(97,59,41);">
+            <img src="assets/image/featured-drink-4-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8 pb-5">
+            <p class="fs-5 fw-semibold">Cantaloupe Melon Cream</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart4" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41)">
+              Add to Cart
+            </button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- brewed coffee -->
+
+    <div class="container-fluid mt-lg-5 mt-md-5 mt-sm-5 d-none" id="menu2">
+      <div class="items-content">
+        <div class="items-list row d-flex text-lg-center text-md-center text-sm-center justify-content-center" style="color:  rgb(97,59,41);">
+          <div class="col-lg-2 col-md-6 col-sm-6 pb-4 border m-1">
+            <img src="assets/image/brewed-1-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Iced Cappuccino</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart7" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+          
+          <div class="col-lg-2 col-md-6 col-sm-6 pb-4 border m-1">
+            <img src="assets/image/brewed-2-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Coffee Frappuccino</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart8" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 pb-4 border m-1">
+            <img src="assets/image/brewed-3-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Iced Caffe Latte</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart9" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 pb-4 border m-1">
+            <img src="assets/image/brewed-4-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Iced Caramel Macchiato</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart10" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- espresso -->
+
+    <div class="container-fluid mt-lg-5 mt-md-5 mt-sm-5 d-none" id="menu3">
+      <div class="items-content">
+        <div class="items-list row d-flex text-lg-center text-md-center text-sm-center justify-content-center"  style="color:  rgb(97,59,41);">
+          <div class="col-lg-2 border col-md-6 col-sm-6 pb-4 m-1">
+            <img src="assets/image/espresso-1-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8 pb-5">
+            <p class="fs-5 fw-semibold">Caffe Misto</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart13" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+          
+          <div class="col-lg-2 col-md-6 col-sm-6 border pb-4 m-1">
+            <img src="assets/image/espresso-2-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Flat White</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart14" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 border pb-4 m-1">
+            <img src="assets/image/espresso-3-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Espresso</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart15" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 border pb-4 m-1">
+            <img src="assets/image/espresso-4-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8   pb-5">
+            <p class="fs-5 fw-semibold">Espresso Macchiato</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart16" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="col-lg-2  col-md-6 col-sm-6 border pb-4 m-1">
+            <img src="assets/image/espresso-5-removebg-preview.png" class="col-lg-12 col-md-10 col-sm-8  pb-5">
+            <p class="fs-5 fw-semibold">
+              Cold Foam Iced Espresso</p>
+            <p class="fs-5">₱180.00</p>
+            <button type="button" id="addToCart17" class="btn  text-light border-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border-radius: 30px; background-color:  rgb(97,59,41);">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content"  >
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-center fw-bold fs-1" id="staticBackdropLabel">Deja Brew</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="closeBtn"></button>
+          </div>
+          <div class="row container-fluid" style="overflow: y-hidden;">
+            <div class="modal-body col-lg-6" id="displayItems">
+           
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 justify-content-sm-center ms-md-4 ms-sm-4">
+                  <div class="donation-amount col-lg-11 col-md-11 col-sm-11">
+                    <p class="text-lg-center text-md-center text-sm-center  fs-4">Payment Information</p>
+                  <form method="#" action="#" id="forms">
+                      <div class="d-flex justify-content-center  mt-lg-2 mt-md-2 mt-sm-2">
+                        <input type="text"class="form-control mb-2" id="firstName"  placeholder="First Name"  aria-label="First Name" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="d-flex justify-content-center mt-lg-2 mt-md-2 mt-sm-2">
+                        <input type="text"class="form-control mb-2"  id="lastName" placeholder="Last Name"    aria-label="Last Name" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="d-flex justify-content-center  mt-lg-2 mt-md-2 mt-sm-2">
+                        <input type="text" class="form-control"  id="emailAddress" placeholder="you@example.com" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="d-flex justify-content-center  mt-lg-2 mt-md-2 mt-sm-2">
+                        <input type="text" class="form-control" id="stateOrProvince" placeholder="State/Province" aria-label="State-Province" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="d-flex justify-content-center mt-lg-2 mt-md-2 mt-sm-2">
+                        <input type="text" class="form-control" id="zipCode" placeholder="ex. 6050" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                    </div>
+                    <div class="mt-5 col-12 d-flex flex-column" id="paymentContainer">
+                      <p>Payment Type: </p>
+                      <div>
+                        <input type="radio" id="gcash" name="paymentMethod" value="gcash" class="ms-1">
+                        <label for="gcash">Gcash</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="paypal" name="paymentMethod" value="paypal" class="ms-1">
+                        <label for="paypal">Paypal</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="cod" name="paymentMethod" value="cod" class="ms-1">
+                        <label for="cod">COD</label>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+          </div>
+          <div id="displayTotal" class="text-end me-5">
+            <p>Total : <span id="totals"></span></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Add Other Items</button>
+           <button type="button" class="btn btn-primary" id="proceedBtn">Proceed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+       <!-- Footer -->
+       <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-6">
+                    <div class="single-box" id="footer-main-box">
+                        <img src="assets/imagess/Deja Brew Logo.png" alt="" class="footer-img">
+                        <p> A Deja Vu in a cup. It's always a new experience with Deja Brew. Reminisce the good times with us.</p>
+                        <h2>Follow us on</h2>
+                        <p class="socials">
+                            <a href="https://www.facebook.com/profile.php?id=100066843000615" target="blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#twitter"><i class="fa fa-twitter"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6"></div>
+                <div class="col-lg-2 col-md-12  col-sm-6">
+                    <div class="single-box">
+                        <h2>About</h2>
+                    <ul>
+                        <li><a href="about.html#inACup">It's all in a cup</a></li>
+                        <li><a href="about.html#contact">Contact</a></li>
+                        <li><a href="about.html#location">Location</a></li>
+                        <li><a href="about.html#busHours">Business Hours</a></li>
+                    </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-2 col-md-12  col-sm-6">
+                    <div class="single-box">
+                        <h2>Community</h2>
+                    <ul>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Invite a Friend</a></li>
+                    </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-2 col-md-12  col-sm-6">
+                    <div class="single-box">
+                        <h2>Socials</h2>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100066843000615" target="blank">Facebook</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+
+
+    <script src="assets/script/Order.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

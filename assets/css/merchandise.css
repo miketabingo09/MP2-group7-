@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.div1 {
+    max-width: 800px;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+/* .items {
+    height: auto;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.471);
+    border-radius: 30px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 3px solid  rgba(211, 211, 211, 0.471);
+  
+} */
+.items img {
+    width: auto;
+    height: 60%;
+}
+
+

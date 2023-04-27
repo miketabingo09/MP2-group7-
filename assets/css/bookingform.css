@@ -1,0 +1,48 @@
+.div1 {
+    max-width: 800px;
+
+}
+.container-fluid {
+    width: 60%;
+}
+
+label {
+    font-size: 20px;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+}
+.validation i {
+    display: none;
+}
+.validation span {
+    display: none;
+}
+.success i.fa-circle-check{
+    display: contents;
+}
+.success .text-success{
+    display: contents;
+}
+.error i.fa-circle-exclamation{
+    display: contents;
+}
+.error .text-danger{
+    display: contents;
+}
+.background {
+    background-image: url(../images/wedding4.jpg);
+}
+.container-fluid {
+    background-color: rgba(223, 223, 223, 0.558);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+
